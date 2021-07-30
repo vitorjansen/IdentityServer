@@ -16,3 +16,13 @@ Função: "Oferece controle de acesso para as APIs"
 >
 > O Indetity Server 4 necessita de conhecimento técnico avançado, ou seja, inicialmente gasta mais com mão-de-obra para construí-lo e mantê-lo mas ganha-se ser por ser Open Source (diferente de outras opções mais fáceis de implementar mas que tem um custo por requisição).
 
+***
+
+### OpenId Connect com IdentityServer4
+
+É uma camada de identidade simples que fica no topo do protocolo OAuth.
+
+A principal diferença entre o OAuth e o OpenId, é que o primeiro tem acesso apenas a um token de acesso para os recursos do cliente no servidor enquanto o segundo além do token de acesso recebe também um Id token (que pode conter mais informções sobre o Resource Owner)
+
+
+
