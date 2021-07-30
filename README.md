@@ -24,5 +24,11 @@ Função: "Oferece controle de acesso para as APIs"
 
 A principal diferença entre o OAuth e o OpenId, é que o primeiro tem acesso apenas a um token de acesso para os recursos do cliente no servidor enquanto o segundo além do token de acesso recebe também um Id token (que pode conter mais informções sobre o Resource Owner)
 
+**Implicit Flow**
 
+É um modelo de autorização depreciado, já que é menos seguro uma vez que retorna os token (de acesso e Id) direto na autorização ao invés de retornar através de um endpoint de token específico para isso.
+
+**Authorization Code (Code Flow)**
+
+É o padrão utilizado pois corrige o fluxo do Implicit Flow adicionando mais uma camada de segurança antes de retornar o token. Na prática, o token não é mais enviado junto com a autorização e sim posteriormente em uma endpoint separada.
 
